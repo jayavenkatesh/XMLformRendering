@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form title="Customer Feedback Form">
+  <field type="text" id="name" label="Full Name" placeholder="Enter your full name" required="true" />
+  <field type="text" id="email" label="Email Address" placeholder="Enter your email address" required="true" />
+  <field type="datetime" id="visitDate" label="Date of Visit" required="true" />
+  <field type="radio" id="satisfaction" label="How satisfied were you with our service?">
+    <option value="5">Very Satisfied</option>
+    <option value="4">Satisfied</option>
+    <option value="3">Neutral</option>
+    <option value="2">Dissatisfied</option>
+    <option value="1">Very Dissatisfied</option>
+  </field>
+  <field type="drawing" id="signature" label="Please sign below" width="300" height="200" />
+</form>
